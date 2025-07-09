@@ -1,0 +1,60 @@
+body.popup-container {
+  font-family: sans-serif;
+  padding: 14px;
+  width: 260px;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.textarea, .input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-start {
+  background-color: #10b981;
+}
+
+.btn-start:hover {
+  background-color: #059669;
+}
+
+.btn-stop {
+  background-color: #ef4444;
+}
+
+.btn-stop:hover {
+  background-color: #dc2626;
+}

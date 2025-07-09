@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Tinder Auto Tool",
+  "version": "1.0",
+  "description": "Automatically swipe and send messages on Tinder.",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["https://tinder.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Tinder Auto Tool"
+  }
+}
